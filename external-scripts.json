@@ -12,5 +12,6 @@
   "hubot-youtube",
   "hubot-fliptable",
   "hubot-standup-alarm",
-  "hubot-devops-reactions"
+  "hubot-devops-reactions",
+  "http-status-cats"
 ]
