@@ -22,6 +22,7 @@
     "hubot-fliptable": ">= 0.0.0",
     "hubot-standup-alarm": "*",
     "hubot-devops-reactions": "*",
+    "hubot-urban": "*",
     "hubot-qagif-reactions": "*"
   },
   "engines": {
