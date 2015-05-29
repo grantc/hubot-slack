@@ -12,5 +12,7 @@
   "hubot-youtube",
   "hubot-fliptable",
   "hubot-standup-alarm",
-  "hubot-devops-reactions"
+  "hubot-devops-reactions",
+  "hubot-qagif-reactions",
+  "hubot-urban"
 ]
