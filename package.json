@@ -18,7 +18,7 @@
     "hubot-maps": "0.0.2",
     "hubot-marvin": "0.0.2",
     "hubot-pugme": "^0.1.0",
-    "hubot-qagif-reactions": "git://github.com/grantc/hubot-qagif-reactions.git#84b2063871d",
+    "hubot-qagif-reactions": "git://github.com/grantc/hubot-qagif-reactions.git#c683cb5370",
     "hubot-redis-brain": "0.0.2",
     "hubot-rules": "^0.1.0",
     "hubot-scripts": "^2.5.16",
