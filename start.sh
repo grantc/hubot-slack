@@ -1,4 +1,6 @@
+#!/bin/bash
 set -x
 echo "Starting hubot-slack"
-. hubot.config
+PATH=/usr/bin:/bin:/usr/local/bin
+source hubot.config
 bin/hubot --adapter slack
