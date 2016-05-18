@@ -17,5 +17,7 @@
   "hubot-business-cat",
   "hubot-marvin",
   "hubot-giphy-gifme",
-  "hubot-jenkins"
+  "hubot-jenkins",
+  "hubot-nagios",
+  "hubot-urban"
 ]

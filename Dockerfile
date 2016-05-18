@@ -33,7 +33,9 @@ RUN rm -rf /home/hubot/node_modules/hubot-scripts
 
 ENV JENKINS_USER bob
 ENV JENKINS_PASSWORD super_secret
-ENV JENKINS_URL http://localhost
+ENV JENKINS_URL http://localhost/jenkins
 ENV SLACK_TOKEN xoxb...
+ENV NAGIOS_URL http://localhost/nagios
+ENV NAGIOS_ROOM general 
 
 CMD /home/hubot/start.sh
