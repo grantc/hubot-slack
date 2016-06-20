@@ -26,6 +26,7 @@ COPY package.json /home/hubot/package.json
 COPY external-scripts.json /home/hubot/external-scripts.json
 COPY hubot.config /home/hubot/hubot.config
 COPY start.sh /home/hubot/start.sh
+COPY redis.conf /etc/redis/redis.conf
 
 RUN npm install
 
@@ -36,6 +37,6 @@ ENV JENKINS_PASSWORD super_secret
 ENV JENKINS_URL http://localhost/jenkins
 ENV SLACK_TOKEN xoxb...
 ENV NAGIOS_URL http://localhost/nagios
-ENV NAGIOS_ROOM general 
+ENV NAGIOS_ROOM general
 
 CMD /home/hubot/start.sh
