@@ -38,5 +38,6 @@ ENV JENKINS_URL http://localhost/jenkins
 ENV SLACK_TOKEN xoxb...
 ENV NAGIOS_URL http://localhost/nagios
 ENV NAGIOS_ROOM general
+ENV SLACK_EXIT_ON_DISCONNECT true
 
 CMD /home/hubot/start.sh
